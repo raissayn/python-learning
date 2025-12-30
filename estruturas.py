@@ -22,4 +22,34 @@ elif opcao == 2:
     depositar()
 
 
-#REPETIÇÃO
+#REPETIÇÃO 
+# for percorre
+numeros = [1, 2, 3, 4]
+
+for n in numeros:
+    print(n)
+
+palavra = "Python"
+
+for letra in palavra:
+    print(letra)
+
+for i in range(5):
+    print(i)
+# while faz até a condição não ser falsa
+contador = 1
+
+while contador <= 5:
+    print(contador)
+    contador += 1  # importante para evitar loop infinito
+
+senha = ""
+
+while senha != "1234":
+    senha = input("Digite a senha: ")
+
+print("Acesso liberado")
+
+
+#BREAK = interrompe o loop
+#Continue = pula p/ próxima iteração
